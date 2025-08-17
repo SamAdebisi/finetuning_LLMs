@@ -32,7 +32,7 @@ Before running the notebooks, install the dependencies:
 
 ```bash
 pip install -r requirements.txt
-
+´´´
 
 ---
 
