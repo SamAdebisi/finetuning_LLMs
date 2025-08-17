@@ -36,13 +36,15 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Note 
+## 🔁 Model Substitutions
 
-You can use smaller models, if there are any hardware constraints.
+The following table lists updated models used in this project as replacements for earlier baseline models:
 
-ministral/Ministral-3b-instruct instead of mistralai/Mistral-7B-v0.1
-meta-llama/Llama-3.2-3B-Instruct instead of meta-llama/Llama-2-7b-hf
-sarvamai/sarvam-1 instead of sarvamai/OpenHathi-7B-Hi-v0.1-Base
-Qwen/Qwen2.5-Coder-7B-Instruct instead of codellama/CodeLlama-13b-Instruct-hf 
+| **Previous Model**                                | **Updated Replacement Model**                          | **Reason for Replacement**               |
+|---------------------------------------------------|--------------------------------------------------------|------------------------------------------|
+| `mistralai/Mistral-7B-v0.1`                       | `ministral/Ministral-3b-instruct`                      | Smaller, more efficient, instruction-tuned |
+| `meta-llama/Llama-2-7b-hf`                        | `meta-llama/Llama-3.2-3B-Instruct`                     | Newer LLaMA-3 version, instruction-tuned |
+| `sarvamai/OpenHathi-7B-Hi-v0.1-Base`              | `sarvamai/sarvam-1`                                    | Smaller variant with better instruction performance |
+| `codellama/CodeLlama-13b-Instruct-hf`            | `Qwen/Qwen2.5-Coder-7B-Instruct`                       | More compact and optimized code model |
 
 ---
